@@ -29,7 +29,7 @@ describe('angularjs homepage todo list', function() {
                 expect(helloList.count()).toEqual(1);
  
                 var todoList = element(by.repeater('todo in todoList.todos').row(0).column('text')).sendKeys(data.todo);
-				expect(element(by.model('todoList.todoText')).getText().toEqual(data.todo));
+                expect(element(by.model('todoList.todoText')).getText().toEqual(data.todo));
             });
         })
     });
