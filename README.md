@@ -7,14 +7,19 @@ please refer to https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-de
 2. Install nodejs&npm
 
 sudo apt-get update
+
 sudo apt-get install nodejs
+
 sudo apt-get install npm
+
 nodejs -v
 
 3. Install Protractor&Webdriver-manager
 
 npm install -g protractor
+
 webdriver-manager update
+
 webdriver-manager start
 
 4. Install Git
