@@ -7,8 +7,6 @@ describe('Home page:', function () {
   beforeEach(function () {
     browser.get('https://angularjs.org/');
     logs = browserLogs(browser);
-//    logs.ignore(logs.DEBUG);
-//    logs.ignore(logs.INFO);
   });
  
   afterEach(function () {
